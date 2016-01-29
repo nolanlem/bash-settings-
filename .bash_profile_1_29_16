@@ -1,0 +1,66 @@
+# added by Anaconda 1.9.1 installer
+#export PATH="//anaconda/bin:$PATH"
+#PATH=“//anaconda/bin:${PATH}” 
+#export PATH
+
+source .bashrc
+
+PATH="//Users/nolanlem/Downloads/RTcmix-4.1.0/bin:$PATH" 
+export PATH
+
+export PATH=/usr/local/bin:$PATH
+
+#export PATH=/usr/Documents/COLUMBIA\ CLASSES/librosa-master:$PATH
+
+#export PATH=//anaconda/lib/python2.7/site-packages:$PATH
+
+##
+# Your previous /Users/nolanlem/.bash_profile file was backed up as /Users/nolanlem/.bash_profile.macports-saved_2014-03-08_at_17:13:29
+##
+
+# MacPorts Installer addition on 2014-03-08_at_17:13:29: adding an appropriate PATH variable for use with MacPorts.
+export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+# Finished adapting your PATH environment variable for use with MacPorts.
+
+
+# Setting PATH for Python 3.4
+# The orginal version is saved in .bash_profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/3.4/bin:${PATH}"
+export PATH
+
+# Setting PATH for Python 2.7
+# The orginal version is saved in .bash_profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:${PATH}"
+export PATH
+
+#test -r /sw/bin/init.sh && . /sw/bin/init.sh
+
+export PATH="//anaconda/bin:$PATH"
+
+alias aud="-a Audacity" 
+
+
+##
+# Your previous /Users/nolanlem/.bash_profile file was backed up as /Users/nolanlem/.bash_profile.macports-saved_2015-07-17_at_14:05:27
+##
+
+# MacPorts Installer addition on 2015-07-17_at_14:05:27: adding an appropriate PATH variable for use with MacPorts.
+export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
+# Finished adapting your PATH environment variable for use with MacPorts.
+
+cd /Users/nolanlem/Documents/
+
+#export PS1="\\[\e[0;31m[\u@ \W]\$ \e[m \] "
+#export PS1="[\u]@\h \W $ "
+#export CLICOLOR=1
+#export LSCOLORS=CxFxBxDxCxegedabagacad
+export CLICOLOR=1
+export LSCOLORS=GxFxCxDxBxegedabagaced
+#export PS1='\[\033\e[01;32m\]\u:\[\033]:\[\033\e[01;34m\]\w\[\033\e[00m\] \e[0;31\]m$ \e[m\] '
+alias ls='ls -GFh'
+
+#export PS1='\[\e[0;32m\]\u@\h:\w\$ \[\e[0m\]'
+
+
+export PS1='\[\033[01;32m\]\u:\[\033[01;34m\]\w\[\033[00m\]\[\e[0;31m\]\$ \[\e[0m\] '
+
